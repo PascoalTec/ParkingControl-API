@@ -1,4 +1,9 @@
 ###
 ```
-Aplicação ainda com bug no ParkingSpotController, "DIRECTION CANNOT BE RESOLVED OR IS NOT A FIELD"
+https://www.youtube.com/watch?v=LXRU-Z36GEU&t=429s&ab_channel=MichelliBrito
+
+REVER O VIDEO E DESCOMENTAR UM POR UM O CODIGO JUNTO AO VIDEO, PAREI EM 13:04
+
+
+tentar fazer o front-end da aplicação
 ```
