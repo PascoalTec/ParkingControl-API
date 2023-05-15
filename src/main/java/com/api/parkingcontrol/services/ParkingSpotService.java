@@ -1,8 +1,10 @@
 package com.api.parkingcontrol.services;
 
 
-// import java.util.Optional;
-// import java.util.UUID;
+import java.util.List;
+
+ import java.util.Optional;
+ import java.util.UUID;
 
 // import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties.Pageable;
 // import org.springframework.data.domain.Page;
@@ -39,16 +41,16 @@ public class ParkingSpotService {
         return parkingSpotRepository.existsByApartmentAndBlock(apartment, block);
     }
 
-    // public Page<ParkingSpotModel> findAll(Pageable pageable){
-    //     return parkingSpotRepository.findAll(pageable);
-    // }
+     public List<ParkingSpotModel> findAll(){
+         return parkingSpotRepository.findAll();
+     }
 
-    // public Optional<ParkingSpotModel> findById(UUID id) {
-    //     return parkingSpotRepository.findById(id);
-    // }
+    public Optional<ParkingSpotModel> findById(UUID id) {
+        return parkingSpotRepository.findById(id);
+    }
 
-    // @Transactional
-    // public void delete(ParkingSpotModel parkingSpotModel) {
-    //     parkingSpotRepository.delete(parkingSpotModel);
-    // }
+    @Transactional
+    public void delete(ParkingSpotModel parkingSpotModel) {
+        parkingSpotRepository.delete(parkingSpotModel);
+    }
 }
