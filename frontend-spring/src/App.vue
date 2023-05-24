@@ -1,6 +1,10 @@
 <template>
-  <div class="buscar" src="./assets/search3.png">
+  <div class="buscar">
     Pesquisar
+  </div>
+
+  <div class="buscar">
+    Sobre
   </div>
 </template>
 <Buscar />
@@ -37,7 +41,7 @@ a {
   color: #42b983;
 }
 .buscar{
-    background-color:#2F4F4F;
+    background-color:black;
     color: white;
     border:solid 1px;
     border-radius:15px;
